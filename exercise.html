@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    nav{
+      background-color: blueviolet;
+      padding: 1px;
+    }
+    ul {
+      list-style-type: none;
+      display: flex;
+    }
+    ul li a{
+      text-decoration: none;
+      color: chartreuse;
+      padding: 15px;
+    }
+    ul li a:hover{
+      background-color: blue;
+    }
+    li complete {
+      text-decoration-line: line-through;
+    }
+
+
+    .input-icon i{
+      position: absolute;
+    }
+
+    .icon {
+      margin: 5px;
+      padding: 10px;
+      color: rgb(235, 8, 8);
+      min-width: 50px;
+      position: absolute;
+    }
+    input{
+      margin: 5px;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+    }
+ 
+    .text {
+      height: 50%;
+      width: 23px;
+      padding: 0;
+    
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="active"><a href="#">home</a></li>
+        <li><a href="#">about as</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">compony</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>To do list</h1>
+  <ul class="todo">
+    <li><input type="checkbox" name="">Ndondive</li>
+    <li id="complete"><input type="checkbox" name="">Safari</li>
+    <li><input type="checkbox"name>peleji</li>
+    <li id="complete"><input type="checkbox" name="">manyal</li>
+  </ul>
+
+  <form>
+    <h1>Add new employee</h1>
+    <p>Lorem ipsum dores</p>
+    <div class="input-icon">
+      <div class="icon">
+      <i class="fa fa-user-circle-o"></i>
+      </div>
+      <div class="text">
+      <input  type="text" name="First name" placeholder="First name"> 
+      </div>
+    </div>
+    <div class="input-icon">
+      <div class="icon">
+      <i class="fa fa-user-circle-o"></i>
+      </div>
+      <div class="text">
+      <input type="text" name="Last name" placeholder="Last name">
+      </div>
+    </div>
+    <div class="input-icon">
+      <div class="icon">
+       <i class="fa fa-address-card-o"></i>
+       </div>
+       <div class="text">
+       <input type="text" name="Adress" placeholder="Adress"><br>
+       </div>
+     </div>
+    </div>  <div class="input-icon">
+      <div class="icon">
+      <i class="fa fa-id-card"></i>
+      </div>
+      <div class="text">
+      <input type="text" name="Identify" placeholder="Identify"> 
+      </div>
+    </div>
+    <di>
+
+    </div>
+  </form>
+</body>
+</html>

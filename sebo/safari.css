@@ -1,0 +1,45 @@
+body{
+    background-color: #f0ff00;
+    font-family: "Arial", sans-serif;
+    margin: 30;
+    padding: 43;
+    }
+    
+    #form-group{
+        background-color: hsla(251, 94%, 53%, 0.658);
+        width: 15%;
+        margin: 10%;
+        border-radius: 5px;
+        border: 50px;
+    }
+    
+    
+    #form-group input{
+        padding: 10px;
+    }
+    
+    #form-group button{
+        width: 80%;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        background-color: #4caf50;
+        color: white;
+    }
+    
+    #form-group .Cancel{
+        background-color: #ccc;
+        }
+    
+    #form-group.Cancel:hover{
+        background-color: #4caf50;
+        width: 90%;
+        height: auto;
+    }
+    
+    #form-group .submit{
+        background-color: rgb(14, 243, 26);
+    }
+    
+    
