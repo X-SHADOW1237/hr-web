@@ -39,12 +39,13 @@ img{
 
 .bnt{
     font-family: 'Times New Roman';
-    width: 100px;
+    width: 150px;
     height: 30px;
     margin-inline-start: 40px;
     margin-block-start: 10px;
     background: transparent;
     color: aqua;
+    border: 2px solid #0ef;
 }
 
 .main{
@@ -410,8 +411,7 @@ h4{
     margin-block-start: 60px;
 }
 .png{
-    height: 450px;
-    width: 700px;
+    height: 400px;
+    width: 300px;
     margin-inline-start: 150px;
 }
-.

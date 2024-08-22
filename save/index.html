@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lingin</title>
+    <style>
+        body{
+            background: linear-gradient(45deg,#0e1111,#07c9fa,#0fc555,#5c06e7,#2806e7);
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+            background-color: blueviolet;
+            position: relative;
+            animation-name: mahama;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes mahama{
+            0%{
+                background-color: #89dff5;
+                left: 0;
+                top: 0;
+            }
+            25%{
+                background-color: #89dff5;
+                left: 200px;
+                top: 0px;
+            }
+            50%{
+                background-color: #00ff00;
+                left: 200px;
+                top: 200px;
+            }
+            75%{
+                background-color: #0000ff;
+                left: 0px;
+                top: 200px;
+            }
+            100%{
+                background-color: #3dadc9;
+                top: 0px;
+                left: 0px;
+            }
+        }
+        a{
+            margin-inline-start: 300px;
+            font-weight: bold;
+            color: aliceblue;
+            text-decoration: none;
+        }
+        .loader {
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #3498db;
+            width: 120px;
+            height: 120px;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+            margin-inline-start: 400px;
+        }
+        @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div>
+    </div>
+    <div class="loader"></div>
+    <a href="lond.html">Click here</a>
+</body>
+</html>

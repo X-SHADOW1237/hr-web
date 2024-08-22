@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="validator.css">
+</head>
+<body>
+    <form action="#" id="validator-form">
+        <div id="input-section">
+            <label for="">Username</label><br>
+            <input type="text" name="Username" id="Username" placeholder="Username">
+            <p class="error-message" id="username-error"></p>
+        </div>
+        <div id="input-section">
+            <label for="">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="email">
+            <p class="error-message" id="email-error"></p>
+        </div>
+        <div id="input-section">
+            <label for="">passsword</label><br>
+            <input type="password" name="password" id="passsword" placeholder="password">
+            <p class="error-message" id="password-error"></p>
+        </div>
+        <div id="input-section">
+            <label for="">Confirm password</label><br>
+            <input type="password" name="confirm passsword" id="confirm passsword" placeholder="confirm password">
+            <p class="error-message" id="confirm-error"></p>
+        </div>
+        <button id="submit">submit</button>
+    </form>
+    <script src="validator.js"></script>
+</body>
+</html>

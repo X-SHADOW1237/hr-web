@@ -17,7 +17,7 @@ ul {
 
 button{
   background-color: rgb(21, 5, 77);
-   margin-top: 15px;
+  margin-top: 15px;
   -webkit-text-fill-color: white;
   height: 27px;
   width: 6%;
@@ -31,10 +31,6 @@ h5  {
 
 p {
   margin-top: 4px;
-}
-
-i{
-  
 }
 
 .input-icon i{

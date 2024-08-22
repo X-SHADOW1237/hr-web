@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+   width: 30%;
+   margin: 200px;
+   background: linear-gradient(-1000deg,rgb(10, 6, 20), rgb(139, 48, 48), rgb(204, 150, 79), rgb(63, 66, 216), rgb(226, 43, 134), rgb(13, 88, 42) );
+}
+#input-section{
+    margin: 4%;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background: linear-gradient( -2000deg,blueviolet, rgb(46, 6, 223), rgb(71, 59, 59));
+    margin-left: 18px;
+}

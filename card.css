@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: yellow;
+}
+
+form{
+    width: 550px;
+    height: 400px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM72wFsqg19J0V0pJhOcvTOLJeyRPNe6pytMfudsS2A64_LMSR7nDPf1KkBzGUm72lwsk&usqp=CAU);
+    margin-left: 28%;
+    margin-block-start: 95px;
+}

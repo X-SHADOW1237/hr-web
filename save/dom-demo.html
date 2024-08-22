@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-DEMO</title>
+    <script>
+        
+        function Validator(){
+            var messenge = document.forms["dom-form"]["messenge"].value;
+            if(messenge==""){
+                alert("Hope you see it");
+                return false
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+    </div>
+    <script>
+        const form = document.createElement('form')
+    </script>
+    <p class="Mahama">Mahama coding school</p>
+    <p>Test</p>
+    <p>Test</p>
+    <p>Test</p>
+    <p>Test</p>
+    <form action="#" id="dom-form" onsubmit="return Validator()" method="post">
+        <input type="text" name="messenge" id="input">
+        <button type="submit">submit</button>
+    </form>    
+    <script>
+        document.getElementsByTagName("p")[3].style.color = "red";
+    </script>
+    <P id="Paragraph"></P>
+
+    <script>
+        document.write("Mahama")
+        document.write("Date")
+        document.getElementById("Paragraph").innerHTML = "Hello World!";
+    </script>
+</body>
+</html>
